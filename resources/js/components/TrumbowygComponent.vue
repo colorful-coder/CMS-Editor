@@ -16,8 +16,8 @@
   import '../plugins/table/trumbowyg.table.js';
   import '../plugins/table/ui/sass/trumbowyg.table.scss';
   import '../plugins/resizimg/trumbowyg.resizimg.js';
+  import '../plugins/noembed/trumbowyg.noembed';
   import '../jquery-resizable';
-  import '../turmbowyg.youtubelink';
   export default {    
     data () {
         return {
@@ -37,7 +37,7 @@
                     ['horizontalRule'],
                     ['removeformat'],
                     ['fullscreen'],
-                    ['youtubelink'],
+                    ['noembed'],
                     ['resizimg'],
                 ],
                 btnsDef: {
@@ -47,7 +47,6 @@
                     }
                 },
                 plugins:{
-                    youtubelink: {},
                     resizimg: {
                         minSize: 32,
                         step: 4
@@ -62,3 +61,8 @@
     
   }
 </script> 
+<style>
+.trumbowyg-modal-box label input {
+  line-height: 19px;
+}
+</style>
