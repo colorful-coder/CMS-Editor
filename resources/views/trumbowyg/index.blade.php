@@ -53,7 +53,7 @@
                                                 <a href="{{ route('trumbowyg.show', $post->id) }}" class="btn btn-info btn-sm">
                                                     <i class="fas fa-eye"></i>
                                                 </a>
-                                                <a href="#" class="btn btn-success btn-sm">
+                                                <a onclick="return alert('Coming soon...')" href="javascript:void(0)" class="btn btn-success btn-sm">
                                                     <i class="fas fa-edit"></i>
                                                 </a>
                                                 <button type="submit" class="btn btn-danger btn-sm">
