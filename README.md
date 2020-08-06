@@ -7,7 +7,7 @@
 
 ## Installation
 
-- git clone https://github.com/thetminnhtun/laravel-text-editor
+- git clone https://github.com/colorful-coder/CMS-Editor
 - Go project folder
 - composer install
 - npm install
@@ -15,7 +15,7 @@
 - cp .env.example .env
 - Setup database
 - php artisan migrate
-- php artisan db:seed
+- php artisan db:seed (optional)
 - php artisan key:generate
-- php artisan serve
+- php artisan serve --port=8000
 - run browser `localhost:8000`
