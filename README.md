@@ -3,6 +3,7 @@
 ## Include following Rich Text Editor
 
 - [Summernote](https://summernote.org/)
+- [Trumbowyg](https://alex-d.github.io/Trumbowyg/demos/)
 
 ## Installation
 
