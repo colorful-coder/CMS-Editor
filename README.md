@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Laravel Text Editor
-=======
 # CMS-Editor
->>>>>>> 3bcf2cb7bdf0cc43e12ea8763f0135f2280bfd74
 
 ## Include following Rich Text Editor
 
