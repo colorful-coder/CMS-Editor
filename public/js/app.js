@@ -1964,16 +1964,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var trumbowyg_dist_ui_trumbowyg_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(trumbowyg_dist_ui_trumbowyg_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _plugins_base64_trumbowyg_base64_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../plugins/base64/trumbowyg.base64.js */ "./resources/js/plugins/base64/trumbowyg.base64.js");
 /* harmony import */ var _plugins_base64_trumbowyg_base64_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_plugins_base64_trumbowyg_base64_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _plugins_table_trumbowyg_table_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../plugins/table/trumbowyg.table.js */ "./resources/js/plugins/table/trumbowyg.table.js");
-/* harmony import */ var _plugins_table_trumbowyg_table_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_plugins_table_trumbowyg_table_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _plugins_table_ui_sass_trumbowyg_table_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../plugins/table/ui/sass/trumbowyg.table.scss */ "./resources/js/plugins/table/ui/sass/trumbowyg.table.scss");
-/* harmony import */ var _plugins_table_ui_sass_trumbowyg_table_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_plugins_table_ui_sass_trumbowyg_table_scss__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _plugins_resizimg_trumbowyg_resizimg_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../plugins/resizimg/trumbowyg.resizimg.js */ "./resources/js/plugins/resizimg/trumbowyg.resizimg.js");
-/* harmony import */ var _plugins_resizimg_trumbowyg_resizimg_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_plugins_resizimg_trumbowyg_resizimg_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _plugins_noembed_trumbowyg_noembed__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../plugins/noembed/trumbowyg.noembed */ "./resources/js/plugins/noembed/trumbowyg.noembed.js");
-/* harmony import */ var _plugins_noembed_trumbowyg_noembed__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_plugins_noembed_trumbowyg_noembed__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _jquery_resizable__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../jquery-resizable */ "./resources/js/jquery-resizable.js");
-/* harmony import */ var _jquery_resizable__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_jquery_resizable__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _plugins_linkbtn_trumbowyg_linkbtn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../plugins/linkbtn/trumbowyg.linkbtn */ "./resources/js/plugins/linkbtn/trumbowyg.linkbtn.js");
+/* harmony import */ var _plugins_linkbtn_trumbowyg_linkbtn__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_plugins_linkbtn_trumbowyg_linkbtn__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _plugins_table_trumbowyg_table_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../plugins/table/trumbowyg.table.js */ "./resources/js/plugins/table/trumbowyg.table.js");
+/* harmony import */ var _plugins_table_trumbowyg_table_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_plugins_table_trumbowyg_table_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _plugins_table_ui_sass_trumbowyg_table_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../plugins/table/ui/sass/trumbowyg.table.scss */ "./resources/js/plugins/table/ui/sass/trumbowyg.table.scss");
+/* harmony import */ var _plugins_table_ui_sass_trumbowyg_table_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_plugins_table_ui_sass_trumbowyg_table_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _plugins_resizimg_trumbowyg_resizimg_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../plugins/resizimg/trumbowyg.resizimg.js */ "./resources/js/plugins/resizimg/trumbowyg.resizimg.js");
+/* harmony import */ var _plugins_resizimg_trumbowyg_resizimg_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_plugins_resizimg_trumbowyg_resizimg_js__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _plugins_noembed_trumbowyg_noembed__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../plugins/noembed/trumbowyg.noembed */ "./resources/js/plugins/noembed/trumbowyg.noembed.js");
+/* harmony import */ var _plugins_noembed_trumbowyg_noembed__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_plugins_noembed_trumbowyg_noembed__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _jquery_resizable__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../jquery-resizable */ "./resources/js/jquery-resizable.js");
+/* harmony import */ var _jquery_resizable__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_jquery_resizable__WEBPACK_IMPORTED_MODULE_8__);
 //
 //
 //
@@ -1992,13 +1994,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       content: null,
       config: {
         btns: [['viewHTML'], ['undo', 'redo'], // Only supported in Blink browsers
-        ['formatting'], ['strong', 'em', 'del'], ['superscript', 'subscript'], ['link'], ['image'], ['table'], ['justifyLeft', 'justifyCenter', 'justifyRight', 'justifyFull'], ['unorderedList', 'orderedList'], ['horizontalRule'], ['removeformat'], ['fullscreen'], ['noembed'], ['resizimg']],
+        ['formatting'], ['strong', 'em', 'del'], ['superscript', 'subscript'], ['link'], ['image'], ['table'], ['justifyLeft', 'justifyCenter', 'justifyRight', 'justifyFull'], ['unorderedList', 'orderedList'], ['horizontalRule'], ['removeformat'], ['fullscreen'], ['noembed'], ['resizimg'], ['linkbtn']],
         btnsDef: {
           image: {
             dropdown: ['insertImage', 'base64'],
@@ -53049,6 +53052,92 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
           };
           trumbowyg.addBtnDef('base64', btnDef);
         }
+      }
+    }
+  });
+})(jQuery);
+
+/***/ }),
+
+/***/ "./resources/js/plugins/linkbtn/trumbowyg.linkbtn.js":
+/*!***********************************************************!*\
+  !*** ./resources/js/plugins/linkbtn/trumbowyg.linkbtn.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function ($) {
+  'use strict';
+
+  var defaultOptions = {
+    start_html: '<a href="',
+    mid_html: '" target="_blank" class="btn btn-primary ',
+    last_html: '">',
+    end_html: '</a><br/>'
+  };
+  $.extend(true, $.trumbowyg, {
+    // Add our plugin to Trumbowyg registred plugins
+    plugins: {
+      linkbtn: {
+        init: function init(trumbowyg) {
+          // Fill current Trumbowyg instance with linkbtn plugin default options
+          trumbowyg.o.plugins.linkbtn = $.extend(true, {}, defaultOptions, trumbowyg.o.plugins.linkbtn || {});
+          var btnDef = {
+            text: 'link',
+            fn: function fn() {
+              trumbowyg.saveRange();
+              var $modal = trumbowyg.openModalInsert('Links', {
+                link_name: {
+                  label: 'Link name',
+                  type: 'text',
+                  required: true
+                },
+                url: {
+                  label: 'Url',
+                  type: 'text',
+                  required: true
+                },
+                "class": {
+                  lable: 'class',
+                  type: 'text',
+                  required: true
+                }
+              }, //callback
+              function (data) {
+                var url = data.url;
+                var link_name = data.link_name;
+                var class_name = data["class"];
+                var html = trumbowyg.o.plugins.linkbtn.start_html + url + trumbowyg.o.plugins.linkbtn.mid_html + class_name + trumbowyg.o.plugins.linkbtn.last_html + link_name + trumbowyg.o.plugins.linkbtn.end_html;
+                var pos = $('#cursor_position').val();
+                var text = trumbowyg.html();
+                var status = $(".trumbowyg-box").hasClass('trumbowyg-editor-hidden');
+
+                if (!status) {
+                  trumbowyg.execCmd('insertHTML', html);
+                }
+
+                if (status) {
+                  var str = text.split("");
+                  str.splice(pos, 0, html);
+                  text = str.join("");
+                  trumbowyg.html(text);
+                }
+
+                setTimeout(function () {
+                  trumbowyg.closeModal();
+                }, 250);
+              });
+            },
+            "class": 'trumbowyg-not-disable',
+            ico: "link"
+          }; // Add btn defintion
+
+          trumbowyg.addBtnDef('linkbtn', btnDef);
+        },
+        tagHandler: function tagHandler(element, trumbowyg) {
+          return [];
+        },
+        destroy: function destroy() {}
       }
     }
   });

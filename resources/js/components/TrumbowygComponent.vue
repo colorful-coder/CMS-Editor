@@ -13,6 +13,7 @@
   // Import editor css
   import 'trumbowyg/dist/ui/trumbowyg.css';
   import '../plugins/base64/trumbowyg.base64.js';
+  import '../plugins/linkbtn/trumbowyg.linkbtn';
   import '../plugins/table/trumbowyg.table.js';
   import '../plugins/table/ui/sass/trumbowyg.table.scss';
   import '../plugins/resizimg/trumbowyg.resizimg.js';
@@ -39,6 +40,7 @@
                     ['fullscreen'],
                     ['noembed'],
                     ['resizimg'],
+                    ['linkbtn'],
                 ],
                 btnsDef: {
                     image: {
